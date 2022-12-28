@@ -9,6 +9,7 @@
         *{margin:0; padding:0;}
         li{list-style: none;}
         a{text-decoration: none;}
+        img{display:block;}
         #header{position:relative; height:60px; background-color: #000;}
         #header h1{position: absolute; left:50%; top:10px; transform: translateX(-50%);}
         #header h1 img{height:40px;}
@@ -21,6 +22,9 @@
         .gnb ul a{display:block; color: #fff; text-align:center; line-height: 40px;}
         #topBanner{position:relative;}
         #topBanner img{width:100%;}
+        #product ul{display:flex; width: 100%;}
+        #product ul li{width:25%;}
+        #product ul li img{width:100%;}
     </style>
 </head>
 <body>
@@ -37,6 +41,14 @@
     </nav>
     <section id="topBanner">
         <img src="img/b0.jpg" alt="">
+    </section>
+    <section id="product">
+        <ul>
+            <li><img src="img/living9.jpg" alt=""></li>
+            <li><img src="img/living10.jpg" alt=""></li>
+            <li><img src="img/living11.jpg" alt=""></li>
+            <li><img src="img/living12.jpg" alt=""></li>
+        </ul>
     </section>
 </body>
 </html>
